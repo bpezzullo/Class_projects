@@ -1,4 +1,4 @@
-# project1
+# Spotify Analysis of top100 songs from 1958 to 2018
 The first group project for Data Analytics Class
 
 Goal:
