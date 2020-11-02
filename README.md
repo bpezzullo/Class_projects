@@ -1,4 +1,4 @@
-# project1
+# Spotify Analysis of top100 songs from 1958 to 2018
 The first group project for Data Analytics Class
 
 Goal:
@@ -13,7 +13,7 @@ Overarching Question : What makes a top hit a top hit?
 The main files are music and CountryComparison to cover the work done.  The final presentation is uploaded along with all the graphs 
 that we created.
 
-The powerpoint presentation provides a view of what was done.
+The powerpoint ![presentation](Presentation.pptx) provides a view of what was done.
 
 ![top 100 songs from 1957 to 2019](Images/spotify_track_popularity.png)
 
