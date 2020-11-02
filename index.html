@@ -3,35 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify Project</title>
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
 
-  <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <style>
+        .dataframe {
+            /* background-color:lightgrey; */
+            font-size: 20px;
+            size: 40px;
+            margin-top: 50px;
+        }
 
-    .dataframe {
-      background-color:lightgrey;
-      font-size: 20px;
-      size: 40px;
-      margin-top: 50px;
-    }
-    .mtitle {
-      background-color:whitesmoke;
-      width: 45%;
-      text-align: center;
-    }
-    .mabout {
-      font-size: 20px;
-    }
+        .bg {
+            background-image: url('analytics-1907993__340.jpg');
+
+            /* Half height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .mtitle {
+
+            width: 100%;
+            text-align: center;
+            font-family: sans-serif;
+            font-style: italic;
+            font-size: 80px;
+        }
+
+
+        a:link {
+            color: #ccc;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #043655;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #8ebf42;
+        }
+
+        /* selected link */
+        a:active {
+            color: #800000;
+        }
+
+        .mabout {
+            font-size: 20px;
+        }
+
+        .p {
+            padding-left: 5px;
+        }
+
+        .rgba-gradient {
+            background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+            background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+            background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+            background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+            background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+        }
 </style> 
 </head>
 
 <body>
-<hr>
-<h1 class="mtitle">Spotify Project</h1>
-<hr>
+
 
   <!-- Our rows function in containers (grid created). -->
-  <div class="container dataframe">
+  <div class="container rgba-gradient">
+    <hr>
+<h1 class="mtitle">Spotify Project</h1>
+<hr>
 
     <div class="row dataframe">
       <p>   </p>
@@ -49,7 +105,7 @@
       <p>  
         
       </p>
-      The  <a href="Presentation.pptx"> Power Point </a>  provides a view of what was done.
+      The  <a href="Presentation.pptx">  Power Point  </a>  provides a view of what was done.
 
 
 
